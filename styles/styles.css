@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section style */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    width: auto;
+    height: 50px;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.img-frame {
+    display: flex;
+    align-items: center;
+
+}
+
+.pink {
+    color: #FF42A5;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+
+}
+
+.head-top {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 10px;
+
+}
+
+.head-top li {
+    color: #3C354F;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.follow-us {
+
+    background: rgba(11, 2, 35, 0.10);
+    width: 170px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.img1 {
+    width: 33.916px;
+    height: 15px;
+}
+
+.img2 {
+    width: 20.916px;
+    height: 15px;
+    align-items: center;
+}
+
+.img-frame {
+    width: 86.041px;
+    height: 20px;
+    align-items: center;
+}
+
+.gamer-h1 {
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* banner section style */
+.banner {
+    margin-top: 5px;
+    display: flex;
+    background: #FFF;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-image: url('../images/Group\ 14.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+
+}
+
+.img-group18 {
+    width: 500px;
+    height: auto;
+}
+
+.banner-h3 {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.banner-h1 {
+
+    font-size: 55px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.banner-left>p {
+    color: #534C64;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.btn-1 {
+    padding: 10px 30px;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+font-size: 15px;
+font-weight: 600;
+}
+
+.btn-2 {
+    padding: 10px 35px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    margin-left: 20px;
+    color: #FFF;
+font-size: 15px;
+font-weight: 600;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+/* section-1 */
+.section-1 {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0px 200px;
+    margin-bottom: 100px;
+}
+.section-1-description{
+    text-align: right;
+}
+.pngwing-4{
+    width: 500px;
+}
+.section-1-description > h3{
+    font-size: 25px;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 10px;
+}
+.section-1-description > p{
+    width: 400px;
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 10px;
+
+}
+
+.section-1-description > button{
+
+padding: 10px 25px;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-size: 15px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.section-1-description > h4{
+    color: #534C64;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+
+}
+/* section-2 */
+.section-2-description{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-2-picture > ul{
+display: flex;
+margin: 10px 200px;
+}
+.img-section-2 {
+    width: 200px;
+    
+}
+.ul-section-2{
+    justify-content: space-between;
+}
+
+.p-section-2{
+    width: 200px;
+    text-align: left;
+}
