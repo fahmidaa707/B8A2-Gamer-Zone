@@ -452,7 +452,7 @@ font-weight: 500;
     }
     .section-2-picture > ul{
         margin: auto auto ;
-        padding-left: 90px;
+        padding-left: 170px;
     }
     .download {
         flex-direction: column;
@@ -503,7 +503,19 @@ font-weight: 500;
         padding-bottom: 20px;
     }
     .header-right{
-        gap: 30px;
         
+        
+    }
+    .cat-pic{
+        display: none;
+    }
+    .section-2-picture > ul {
+        display: flex;
+        margin: 0px 0px;
+        align-items: center;
+        padding-left: 0;
+    }
+    .section-1{
+        padding: 0;
     }
 }
