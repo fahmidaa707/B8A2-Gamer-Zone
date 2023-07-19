@@ -224,9 +224,41 @@ line-height: 30px; /* 187.5% */
 .section-2-picture > ul{
 display: flex;
 margin: 10px 200px;
+
+}
+.li-section-2{
+    position: relative;
 }
 .img-section-2 {
     width: 200px;
+    position: relative;
+}
+.png{
+    display: block;
+    width: 50px;
+  transition: .3s ease;
+}
+.overlay{
+    position: absolute;
+    top: 30%;
+  left:38%;
+  opacity: 0;
+
+}
+.overlay > P{
+color: #FF42A5;
+
+
+
+}
+/* hover */
+.li-section-2:hover{
+    -webkit-filter: brightness(60%);
+    
+}
+.li-section-2:hover .overlay{
+    -webkit-filter: brightness(100%);
+    opacity: 1;
     
 }
 .ul-section-2{
@@ -274,4 +306,204 @@ font-size: 18px;
 font-weight: 400;
 
 }
+.hover{
+    display: flex;
+    align-items: center;
+padding: 5px;
+    
+}
+.hover-flex{
+    display: flex;
+    padding: 100px 200px;
+    margin-top: 50px;
+margin-left: 37px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background:rgba(255, 66, 165, 0.03);
+    
+}
+.hover-img{
+width: 40px;
+}
+.hover-p{
+    color: #0B0223;
+font-size: 15px;
+font-weight: 600;
+margin: 10px;
+}
+.hover:hover  {
+    border-radius: 50px;
+    border:2px solid #FF42A5;
+    color: #FF42A5;
+  }
+  .hover-p:hover{
+color: #FF42A5;
+  }
+  /* footer */
+  .footer{
 
+align-items: center;
+text-align: center;
+justify-content: center;
+height: 300px;
+background: #0B0223;
+padding-top: 150px;
+  }
+.ancor-pic{
+    display: flex;
+}
+.img-footer{
+    width: 40px;
+}
+.ancor-pic-ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.condition{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    color: aliceblue;
+}
+.Story-footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-top-pic{
+    width: 50px;
+}
+.top-footer >h3{
+    text-align: center;
+    align-items: center;
+font-size: 25px;
+font-weight: 700;
+padding-left: 10px;
+
+color: #FFF;
+}
+.list-item{
+    color: #FFF;
+text-align: center;
+font-size: 15px;
+font-weight: 600;
+
+
+}
+.Story-footer{
+    padding-top: 20px;
+}
+.condition >li >a{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+
+font-size: 16px;
+font-weight: 500;
+}
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+        flex-direction: column;
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+    .header-right{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .head-top{
+        flex-direction: column;
+    }
+    .follow-us-responxive{
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 100px;
+    }
+    .section-1{
+        flex-direction: column;
+    }
+    .ul-section-2{
+        flex-direction: column;
+    }
+    .section-2-picture > ul{
+        margin: auto auto ;
+        padding-left: 90px;
+    }
+    .download {
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .download-description{
+        text-align: center;
+    }
+    .download-description > h2{
+        text-align: center;
+    }
+    .download-pic{
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .hover-flex{
+        padding: 0;
+        
+        align-content: space-between;
+    align-items: baseline;
+    }
+    .img-group18{
+        height: 100%;
+        width: 100%;
+    }
+    .horse-pic{
+        width: 100%;
+        height: 100%;
+    }
+    .pngwing-4{
+        height: auto;
+        width: 100%;
+    }
+    
+    .footer{
+        height: auto;
+        width: auto;
+    }
+    .Story-footer{
+        flex-wrap: wrap;
+    }
+    .condition{
+        flex-wrap: wrap;
+    }
+    .copyright{
+        padding-bottom: 20px;
+    }
+    .header-right{
+        gap: 30px;
+        
+    }
+}
